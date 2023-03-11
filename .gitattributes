@@ -1,0 +1,2 @@
+\*.ipynb filter=lfs diff=lfs merge=lfs -text
+SpaceFlow_evaluate.ipynb filter=lfs diff=lfs merge=lfs -text
