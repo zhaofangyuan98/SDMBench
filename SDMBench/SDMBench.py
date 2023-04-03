@@ -11,8 +11,8 @@ from scipy.spatial.distance import *
 
 
 class sdmbench:
-    def __init__(self):
-        self = None
+    def __init__(self,metric):
+        self.metric = metric
 
 
     def res_search(adata,target_k = 7, res_start = 0.1, res_step = 0.1, res_epochs = 10): 
