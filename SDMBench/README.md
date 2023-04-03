@@ -1,4 +1,4 @@
-# pysodb
+# SDMBench
 ## Introduction
 SDMBench is a python package that provides the metrics function to benchmark methods for indentifing spatial domain among Spatial transcriptome datasets.
 
