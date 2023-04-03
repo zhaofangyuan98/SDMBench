@@ -19,7 +19,6 @@ setuptools.setup(
     'numpy',
     'squidpy',
     'scikit-learn',
-    'scikit-image',
     'requests',
     'urllib3>=1.26.12',
     'tqdm',
