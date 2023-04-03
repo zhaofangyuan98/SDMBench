@@ -1,0 +1,17 @@
+name: SDMBench
+channels:
+  - conda-forge
+  - vtraag
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy==1.22.4
+  - anndata==0.8.0
+  - scanpy>=1.9.1
+  - pandas>=1.5.0
+  - squidpy>=1.2.3
+  - scikit-learn>=1.1.1
+  - scikit-image>=0.20.0
+  - requests>=2.28.1
+  - urllib3>=1.26.12
+  - tqdm>=4.64.1
