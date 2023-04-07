@@ -10,4 +10,4 @@ There are some spatial transcriptome datasets used in our benchmark:
 
 *bass_spatial_osmfish.csv* is the spatial location file used in the osmfish dataset for the BASS method.
 
-Our reprocessed versions of all datasets are publicly available as h5ad format on Figshare (XXX).
+Our reprocessed versions of all datasets are publicly available as h5ad format on Figshare (https://figshare.com/projects/SDMBench/163942).
