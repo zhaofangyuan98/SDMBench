@@ -2,7 +2,7 @@
 ## Introduction
 There are some spatial transcriptome datasets used in our benchmark:
 
-*151673.h5ad* is one of 10x visium datasets from LIBD human dorsolateral prefrontal cortex (DLPFC, http://research.libd.org/spatialLIBD/)' data. obs['Region'] is the cell type annotation of each spot, and we use this info as the ground truth. 
+*151507.h5ad* is one of 10x visium datasets from LIBD human dorsolateral prefrontal cortex (DLPFC, http://research.libd.org/spatialLIBD/)' data. obs['Region'] is the cell type annotation of each spot, and we use this info as the ground truth. 
 
 *osmfish.h5ad* is a spatial transcriptomics dataset of mouse somatosensory cortex. obs['Region'] is the cell type annotation of each spot, and we use this info as the ground truth. We have removed the "Excluded" region of this dataset.
 
