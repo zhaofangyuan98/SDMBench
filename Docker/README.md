@@ -48,7 +48,7 @@ sudo apt-get install docker-ce
 | Username/Image_name | Tag |
 |:-------:|:-------:|
 | sdmbench/stagate_gpu | latest |
-
+| sdmbench/spaceflow_gpu | latest |
 
 We provide the image above：
 
