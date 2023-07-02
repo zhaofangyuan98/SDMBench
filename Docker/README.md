@@ -5,7 +5,7 @@
 
 ### 1.1 Building a New Docker Image on the Local Machine
 
-For users who wish to utilize the image provided directly, please proceed to step 2. For those who wish to construct a custom Docker image, please ensure a Dockerfile exists within the directory of interest. The following command can then be executed to build the Docker image:
+The images we provide are based on nvidia/cuda:11.7.1 and ubuntu18.04. If you need to change the cuda and system versions, you can modify them by modifying the dockerfile we provide. For users who wish to utilize the image provided directly, please proceed to step 2. For those who wish to construct a custom Docker image, please ensure a Dockerfile exists within the directory of interest. The following command can then be executed to build the Docker image:
 
 ```bash
 sudo docker build -t <custom_image_name> .
@@ -68,7 +68,7 @@ eg. sudo docker run -p 8888:8888 sdmbench/stagate_gpu:latest
 sudo docker run -p 8888:8888 <username>/<custom_image_name>:latest
 ```
 
-If the Docker configuration is GPU version and the user wishes to utilize GPU, they should execute the following command:
+If user's device configuration is based on nvidia/cuda:11.7.1 and ubuntu18.04, and the user wishes to utilize GPU, they should execute the following command:
 
 eg. sudo docker run --gpus all -p 8888:8888 sdmbench/stagate_gpu:latest  
 
