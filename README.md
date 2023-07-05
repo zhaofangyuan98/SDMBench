@@ -1,7 +1,7 @@
 # SDMBench
 We collected 87 real spatial transcriptome data and simulated 175 data to benchmark 13 methods for identifying spatial domains. 13 methods are included Louvain, Leiden, SpaGCN, BayesSpace, StLearn, SEDR, CCST, SCAN-IT, STAGATE, SpaceFlow, conST, BASS, DeepST.
 
-##Overview
+## Overview
 The main work is as follows.
 
 1)13 computational methods were benchmarked on 34 real data form different spatial transcriptome technologies (10x Visium, Stero-Seq, BaristaSeq, MERFISH, osmFISH, STARmap, STARmap*). The benchmark encompassed 10 different metrics to assess the methods' performance in terms of accuracy, spatial continuity, marker gene detection, scalability, and robustness. The metrics included NMI, HOM, COM, CHAOS, PAS, ASW, Moran's I, Geary's C, time, and memory.
