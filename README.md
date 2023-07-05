@@ -1,19 +1,20 @@
 # SDMBench
 We collected **87** real spatial transcriptome data and simulated **175** data to benchmark **13** methods for identifying spatial domains. 
+ 
 **13** methods are included:
-- **Louvain**:
-- **Leiden**:
-- **SpaGCN**: 
-- **BayesSpace**:
-- **StLearn**: 
-- **SEDR**:
-- **CCST**:
-- **SCAN-IT**:
-- **STAGATE**:
-- **SpaceFlow**:
-- **conST**:
-- **BASS**: 
-- **DeepST**:
+- **Louvain**:《SCANPY: large-scale single-cell gene expression data analysis》
+- **Leiden**:《From Louvain to Leiden: guaranteeing well-connected communities》
+- **SpaGCN**: 《SpaGCN: Integrating gene expression, spatial location and histology to identify spatial domains and spatially variable genes by graph convolutional network》
+- **BayesSpace**:《Spatial transcriptomics at subspot resolution with BayesSpace》
+- **StLearn**: 《stLearn: integrating spatial location, tissue morphology and gene expression to find cell types, cell-cell interactions and spatial trajectories within undissociated tissues》
+- **SEDR**:《Unsupervised Spatially Embedded Deep Representation of Spatial Transcriptomics》
+- **CCST**:《CCST: Cell clustering for spatial transcriptomics data with graph neural network》
+- **SCAN-IT**:《SCAN-IT: Domain segmentation of spatial transcriptomics images by graph neural network》
+- **STAGATE**:《Deciphering spatial domains from spatially resolved transcriptomics with an adaptive graph attention auto-encoder》
+- **SpaceFlow**:《Identifying multicellular spatiotemporal organization of cells with SpaceFlow》
+- **conST**:《conST: an interpretable multi-modal contrastive learning framework for spatial transcriptomics》
+- **BASS**: 《BASS: multi‑scale and multi‑sample analysis enables accurate cell type clustering and spatial domain detection in spatial transcriptomic studies》
+- **DeepST**:《Spatially informed clustering, integration, and deconvolution of spatial transcriptomics with GraphST》
 
 ## Overview
 The main work is as follows.
