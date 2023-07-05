@@ -62,6 +62,6 @@ We also created a Spatial DoMain Benchmark (SDMBench) website, accessible at [ht
 
 ## Datasets
 
-All datasets used are publicly available data, for convenience datasets can be downloaded from ***<http://sdmbench.drai.cn/>***.
+Our reprocessed versions of all datasets are publicly available as h5ad format, for convenience datasets can be downloaded from ***<http://sdmbench.drai.cn/>*** and on Figshare (<https://figshare.com/projects/SDMBench/163942>)
 
 For more details, please see our paper, thank you very much.
