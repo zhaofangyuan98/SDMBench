@@ -47,6 +47,8 @@ sudo apt-get install docker-ce
   
 | Username/Image_name | Tag |
 |:-------:|:-------:|
+| leiden | latest |
+| louvain | latest |
 | sdmbench/stagate_gpu | latest |
 | sdmbench/spaceflow_gpu | latest |
 
