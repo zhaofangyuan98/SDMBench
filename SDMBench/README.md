@@ -18,3 +18,4 @@ conda activate SDMBench
 pip install .
 ```
 
+After the SDMBench package is successfully installed, you can now analysis your data. [***The tutorial***](https://github.com/zhaofangyuan98/SDMBench/tree/main/Tutorial) serves as an illustrative example that demonstrates the process of benchmarking new methods against existing ones. You can run the jupyter notebook of tutorial.ipynb to reproduce it, and new_method.txt provides a format about your results file.
