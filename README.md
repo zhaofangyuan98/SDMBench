@@ -1,10 +1,37 @@
 # SDMBench
-We collected **87** real spatial transcriptome data and simulated **175** data to benchmark **13** methods for identifying spatial domains. 13 methods are included **Louvain, Leiden, SpaGCN, BayesSpace, StLearn, SEDR, CCST, SCAN-IT, STAGATE, SpaceFlow, conST, BASS, DeepST**.
+We collected **87** real spatial transcriptome data and simulated **175** data to benchmark **13** methods for identifying spatial domains. **13** methods are included **Louvain, Leiden, SpaGCN, BayesSpace, StLearn, SEDR, CCST, SCAN-IT, STAGATE, SpaceFlow, conST, BASS, DeepST**.
 
 ## Overview
 The main work is as follows.
 
-1)**13** computational methods were benchmarked on 34 real data form different spatial transcriptome technologies (10x Visium, Stero-Seq, BaristaSeq, MERFISH, osmFISH, STARmap, STARmap*). The benchmark encompassed 10 different metrics to assess the methods' performance in terms of accuracy, spatial continuity, marker gene detection, scalability, and robustness. The metrics included NMI, HOM, COM, CHAOS, PAS, ASW, Moran's I, Geary's C, time, and memory.
+1)**13** computational methods were benchmarked on **34** real data form different spatial transcriptome technologies (10x Visium, Stero-Seq, BaristaSeq, MERFISH, osmFISH, STARmap, STARmap*). The benchmark encompassed 10 different metrics to assess the methods' performance in terms of accuracy, spatial continuity, marker gene detection, scalability, and robustness. The metrics included NMI, HOM, COM, CHAOS, PAS, ASW, Moran's I, Geary's C, time, and memory.
+<table>
+    <tr>
+      <td colspan="3">Accuracy</td>   
+      <td colspan="3">Continuity</td>
+      <td colspan="2">Maker score</td>
+      <td colspan="2">Scalability</td>
+    </tr>
+    <tr>
+      <td>NMI</td>
+      <td>HOM</td>
+      <td>COM</td>
+      <td>CHAOS</td>
+      <td>PAS</td>
+      <td>ASW</td>
+      <td>Moran's I</td>
+      <td>Geary's C</td>
+      <td>time</td>
+      <td>memory</td>
+    </tr>
+</table>
+
+
+
+
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| NMI | HOM | COM | CHAOS | PAS | ASW | Moran's I | Geary's C | time | memory |
+
 
 2)Furthermore, with **175** simulated datasets, we examined the robustness of these 13 methods against four different factors (different gene expression matrix sparsity, spatial resolutions and gene numbers, levels of noise), and assessed the impact of pre- and post-processing steps on performance. 
 
