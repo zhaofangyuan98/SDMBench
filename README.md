@@ -10,7 +10,7 @@ The main work is as follows.
 <table>
     <tr>
       <td colspan="3">Accuracy</td>   
-      <td colspan="3">Continuity*</td>
+      <td colspan="3">Continuity</td>
       <td colspan="2">Maker score</td>
       <td colspan="2">Scalability</td>
     </tr>
@@ -38,3 +38,17 @@ We identified limitations within current methodologies. These limitations became
 We provided ***user guidance*** for selecting the optimal spatial clustering methods based on data characteristics(See Paper Section ”Overall performance” and Fig. 4, 5). ***[The tutorial]***(https://github.com/zhaofangyuan98/SDMBench/tree/main/Tutorial) serves as an illustrative example that demonstrates the process of benchmarking new methods against existing ones. Additionally, we have developed ***[a website interface]***(http://sdmbench.drai.cn/) that facilitates the benchmarking of new methods by comparing them with established approaches.
 
 To make it easier for users to reproduce these computational methods, we plan to create a separate docker on [Docker](https://github.com/zhaofangyuan98/SDMBench/tree/main/Docker) for each method. We are actively updating this repository! 
+
+## Tutorial
+
+If you want to analysis your own data, ***[The tutorial]***(https://github.com/zhaofangyuan98/SDMBench/tree/main/Tutorial) serves as an illustrative example that demonstrates the process of benchmarking new methods against existing ones. You can run the jupyter notebook of tutorial.ipynb to reproduce it, and new_method.txt provides a format about your results file. Before you can run tutorial.ipynb, you need to install the SDMBench package, see the directory ***[SDMBench]***(https://github.com/zhaofangyuan98/SDMBench/tree/main/SDMBench).
+
+We also created a Spatial DoMain Benchmark (SDMBench) website, accessible at [http://sdmbench.drai.cn/], where you can easily benchmark their new methods against existing ones. We provide a tutorial and video (see the “tutorial” in the website) for how to use the SDMBench website with examples.
+
+We provided ***user guidance*** for selecting the optimal spatial clustering methods based on data characteristics(See Paper Section ”Overall performance” and Fig. 4, 5).
+
+## Datasets
+
+All datasets used are publicly available data, for convenience datasets can be downloaded from <http://sdmbench.drai.cn/>.
+
+For more details, please see our paper, thank you very much.
