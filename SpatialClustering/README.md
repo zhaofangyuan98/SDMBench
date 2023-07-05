@@ -18,4 +18,4 @@ There are a total of ***13*** spatial clustering methods in our study, each with
 
 Each evaluation in our study involved ***10*** replicated runs of each method. We performed spatial clustering analysis on two datasets as representative examples: Data 9, which is based on sequencing using the 10x Visium technology, specifically the DLPFC dataset of sample 151673, and Data 21, which is based on imaging using the osmFISH technology. 
  
-The data can be download from <http://sdmbench.drai.cn/>
+The data can be download from <http://sdmbench.drai.cn/>.
