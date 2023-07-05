@@ -9,10 +9,10 @@ The main work is as follows.
 
 <table>
     <tr>
-      <td colspan="3">*Accuracy*</td>   
-      <td colspan="3">*Continuity*</td>
-      <td colspan="2">*Maker score*</td>
-      <td colspan="2">*Scalability*</td>
+      <td colspan="3">Accuracy</td>   
+      <td colspan="3">Continuity*</td>
+      <td colspan="2">Maker score</td>
+      <td colspan="2">Scalability</td>
     </tr>
     <tr>
       <td>NMI</td>
