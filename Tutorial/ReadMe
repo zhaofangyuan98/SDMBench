@@ -1,0 +1,3 @@
+## Tutorial
+
+If you want to analysis your own data, [***The tutorial***](https://github.com/zhaofangyuan98/SDMBench/tree/main/Tutorial) is an example demonstrating how to compare performance of new methods against existing ones. You can run the jupyter notebook of [tutorial.ipynb](https://github.com/zhaofangyuan98/SDMBench/blob/main/Tutorial/tutorial.ipynb) to reproduce it, and [new_method.txt](https://github.com/zhaofangyuan98/SDMBench/blob/main/Tutorial/new_method.txt) provides a format about your results file. Before you can run tutorial.ipynb, you need to install the SDMBench package (see the directory [***SDMBench***](https://github.com/zhaofangyuan98/SDMBench/tree/main/SDMBench)).
