@@ -1,6 +1,8 @@
 
 # Docker
 
+This Docker repository is continuously updated as more new spatial clustering methods are published in the field.
+
 ## 1. Constructing a New Docker Image and Publishing to Docker Hub
 
 ### 1.1 Building a New Docker Image on the Local Machine
