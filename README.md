@@ -14,7 +14,7 @@ We collected **87** real spatial transcriptome data and simulated **175** data t
 - **SpaceFlow**:《Identifying multicellular spatiotemporal organization of cells with SpaceFlow》
 - **conST**:《conST: an interpretable multi-modal contrastive learning framework for spatial transcriptomics》
 - **BASS**: 《BASS: multi‑scale and multi‑sample analysis enables accurate cell type clustering and spatial domain detection in spatial transcriptomic studies》
-- **DeepST**:《Spatially informed clustering, integration, and deconvolution of spatial transcriptomics with GraphST》
+- **DeepST**:《DeepST: A versatile graph contrastive learning framework for spatially informed clustering, integration, and deconvolution of spatial transcriptomics》
 
 ## Overview
 The main work is as follows.
